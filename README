@@ -1,0 +1,35 @@
+GD/Polyline version 0.1
+=======================
+
+Polyline.pm extends the GD module by allowing you to create polylines.
+Think of a polyline as "an open polygon", that is, the last vertex is
+not connected to the first vertex (unless you expressly add the same
+value as both points).
+
+The big feature added to GD by this module is the means to create 
+splines, which are approximations to curves.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  GD
+  Math::Trig
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2002 Daniel J. Harasty
+
+The Polyline.pm module is is distributed under the same terms as 
+Perl itself. See the "Artistic License" in the Perl source code 
+distribution for licensing terms.
+
