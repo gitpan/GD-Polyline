@@ -1,4 +1,4 @@
-GD/Polyline version 0.1
+GD/Polyline version 0.2
 =======================
 
 Polyline.pm extends the GD module by allowing you to create polylines.
@@ -9,6 +9,7 @@ value as both points).
 The big feature added to GD by this module is the means to create 
 splines, which are approximations to curves.
 
+
 INSTALLATION
 
 To install this module type the following:
@@ -18,12 +19,24 @@ To install this module type the following:
    make test
    make install
 
+
+SAMPLE CODE
+
+See "polyline-example.pl" included in distribution.  Just run it
+to create a several pngs and an HTML (with annotations).  Browse the
+created html to see what this module can do for you.  
+
+Crack it open and look at the code as a quick start guide in how to 
+use the module.
+
+
 DEPENDENCIES
 
 This module requires these other modules and libraries:
 
   GD
   Math::Trig
+
 
 COPYRIGHT AND LICENCE
 

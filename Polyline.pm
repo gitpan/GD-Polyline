@@ -4,10 +4,12 @@
 #
 # Author:	Dan Harasty
 # Email:	harasty@cpan.org
-# Version:	0.1
-# Date:		7/21/2002
+# Version:	0.2
+# Date:		2002/08/06
 #
-# See POD at end of file.
+# For usage documentation: see POD at end of file
+#
+# For changes: see "Changes" file included with distribution
 #
 
 use strict;
@@ -28,7 +30,7 @@ package GD::Polyline;
 #
 
 use vars qw($VERSION @ISA);
-$VERSION = "0.1";
+$VERSION = "0.2";
 @ISA = qw(GD::Polygon);
 
 

@@ -1,5 +1,11 @@
 Revision history for Perl extension GD::Polyline.
 
+v0.2 - Initial Distribution - 2002/08/06
+
+	fixes this release:
+	
+		minor update to Makefile.pl to pass "cpan-testers" testing
+
 v0.1 - Initial Distribution - 2002/07/20
 
 	methods introduced in this release:
